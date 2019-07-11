@@ -1,16 +1,17 @@
 <style>
 Title {
-  color: Blue;
+  color: Olive;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 h1 {
-  color: Blue;
+  color: Olive;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 h2 {
   color: PaleVioletRed;
+  text-align: center;
 }
 img {
   height: 150px;
@@ -26,4 +27,45 @@ a {
 p {
   font-family: "Courier New", Courier, monospace;
   }
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
+  color: black;
+  border: 2px solid #00000;
+  border-radius: 12px;
+  background-color: Tan;
+  }
+input {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
+  color: black;
+  border: 2px solid #00000;
+  border-radius: 8px;
+  background-color: Tan;
+  }
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: MistyRose;
+  }
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: Lavender;
+  }
+
 </style>
